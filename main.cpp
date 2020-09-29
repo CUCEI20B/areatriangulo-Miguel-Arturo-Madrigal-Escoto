@@ -12,5 +12,6 @@ int main() {
 
     a = (base*altura)/2;
 
+    cout << a << endl;
     return 0;
 }
