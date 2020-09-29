@@ -5,12 +5,12 @@ using namespace std;
 int main() {
     unsigned int base;
     unsigned int altura;
-    float area;
+    float a;
 
     cin >> base;
     cin >> altura;
 
-    area = (base*altura)/2;
+    a = (base*altura)/2;
 
     return 0;
 }
