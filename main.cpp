@@ -3,7 +3,14 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    unsigned int base;
+    unsigned int altura;
+    float area;
+
+    cin >> base;
+    cin >> altura;
+
+    area = (base*altura)/2;
 
     return 0;
 }
